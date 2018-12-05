@@ -1862,3 +1862,16 @@ RESERVATION SECTION
   display: inline-block;
   margin-top: -3px !important;
 }
+
+@media (min-width: 1200px) {
+  .mu-about-us-left .about-us-img {
+    height: 600px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mu-about-us-left .about-us-img {
+    margin-left: 9px;
+  }
+}
