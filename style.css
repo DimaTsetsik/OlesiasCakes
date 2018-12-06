@@ -515,7 +515,7 @@ img {
 
 #mu-counter {
   background-attachment: fixed;
-  background-image: url("assets/img/counter-bg.jpeg");
+  background-image: url("assets/img/counter-bg.jpg");
   background-size: cover;
   display: inline;
   float: left;
@@ -1081,7 +1081,7 @@ RESERVATION SECTION
 }
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p:before {
-  content: '\f10e';
+ /* content: '\f10e';
   font-family: fontAwesome;
   font-size: 50px;
   left: 1%;
@@ -1090,7 +1090,7 @@ RESERVATION SECTION
   top: 20%;
   opacity: 0.6;
   width: 100%;
-  z-index: -10;
+  z-index: -10; */
 }
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-bio {
@@ -1884,4 +1884,9 @@ RESERVATION SECTION
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.about-me {
+  font-family: "Tangerine", cursive;
+  font-size: 18px;
 }
