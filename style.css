@@ -556,11 +556,12 @@ img {
   padding: 25px 0;
   text-align: center;
   width: 100%;
+  height: 145px
 }
 
 .mu-counter-nav li .mu-single-counter span {
   font-family: "Tangerine", cursive;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .mu-counter-nav li .mu-single-counter h3 {
@@ -585,9 +586,10 @@ img {
 }
 
 .mu-counter-nav li .mu-single-counter p {
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 1.5px;
   margin-bottom: 0;
+  padding-top: 10px;
 }
 
 /*==================
@@ -1891,4 +1893,23 @@ RESERVATION SECTION
   letter-spacing: 1px;
   font-family: 'Lobster', cursive;
   font-size: 18px;
+}
+
+@media (max-width: 1199px) and (min-width: 991px) {
+  .mu-counter-nav li .mu-single-counter{
+    height: 170px;
+  }
+}
+
+
+@media (max-width: 990px) and (min-width: 767px) {
+  .mu-counter-nav li .mu-single-counter{
+    height: 250px;
+  }
+}
+
+
+.fast {
+  -vendor-animation-duration: 1s;
+  -vendor-animation-delay: 0s;
 }
