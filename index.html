@@ -26,6 +26,7 @@
     <!-- Main style sheet -->
     <link href="style.css" rel="stylesheet">    
 
+    <link rel="stylesheet" href="styles/animate.css">
    
     <!-- Google Fonts -->
 
@@ -81,7 +82,7 @@
          
 
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse animation fast" data-av-animation="bounceInRight">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
             <li><a href="index.html">HOME</a></li>
             <li><a href="#mu-about-us">ABOUT US</a></li>                       
@@ -157,19 +158,19 @@
         <div class="col-md-12">
           <div class="mu-about-us-area">
 
-            <div class="mu-title">
+            <div class="mu-title animation fast" data-av-animation="bounceInDown">
               <span class="mu-subtitle">Olesia's Cakes</span>
               <h2>Про нас</h2>
             </div>
 
             <div class="row">
               <div class="col-md-6">
-               <div class="mu-about-us-left">     
+               <div class="mu-about-us-left animation fast" data-av-animation="bounceInUp">     
                 <img src="assets/img/about-us.jpg" class="about-us-img" alt="img">           
                 </div>
               </div>
               <div class="col-md-6">
-                 <div class="mu-about-us-right about-me">
+                 <div class="mu-about-us-right about-me animation" data-av-animation="bounceInrRight">
                  <p>Коли починаєш займатися улюбленою справою, ти вкладаєш в неї все натхнення, всю любов. 
                   Випічка приносить мені задоволення, а відгуки щасливих замовників дають стимул розвиватися. 
                   </p>  
@@ -193,39 +194,36 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="mu-counter-area">
-
+            <div class="mu-counter-area animation fast " data-av-animation="bounceInUp">
               <ul class="mu-counter-nav">
-
                 <li class="col-md-3 col-sm-3 col-xs-12">
                   <div class="mu-single-counter">
-                    <span>Fresh</span>
-                    <h3><span class="counter-value" data-count="150">0</span><sup>+</sup></h3>
-                    <p>Breakfast Items</p>
+                    <span>Локальний продукт</span>
+                    <p>Підтримайте місцевого виробника
+                    </p>
                   </div>
                 </li>
 
                 <li class="col-md-3 col-sm-3 col-xs-12">
                   <div class="mu-single-counter">
-                    <span>Delicious</span>
-                    <h3><span class="counter-value" data-count="60">0</span><sup>+</sup></h3>
-                    <p>Lunch Items</p>
+                    <span>Натуральні інгредієнти</span>
+                    <p>Ми використовуємо лише свіжі, якісні та перевірені інгредієнти
+                    </p>
                   </div>
                 </li>
 
                  <li class="col-md-3 col-sm-3 col-xs-12">
                   <div class="mu-single-counter">
-                    <span>Hot</span>
-                     <h3><span class="counter-value" data-count="45">0</span><sup>+</sup></h3>
-                    <p>Coffee Items</p>
+                    <span>Подарункові набори</span>
+                    <p>Оригінальні подарунки для ваших рідних
+                    </p>
                   </div>
                 </li>
 
                  <li class="col-md-3 col-sm-3 col-xs-12">
                   <div class="mu-single-counter">
-                    <span>Satisfied</span>
-                    <h3><span class="counter-value" data-count="6560">0</span><sup>+</sup></h3>
-                    <p>Customers</p>
+                    <span>Індивідуальне замовлення</span>
+                    <p>Ми готові втілити будь-яку вашу ідею</p>
                   </div>
                 </li>
 
@@ -246,12 +244,12 @@
         <div class="col-md-12">
           <div class="mu-restaurant-menu-area">
 
-            <div class="mu-title">
+            <div class="mu-title animation" data-av-animation="bounceInRight">
               <span class="mu-subtitle">Discover</span>
               <h2>OUR MENU</h2>
             </div>
             
-            <div class="mu-restaurant-menu-content">
+            <div class="mu-restaurant-menu-content animation" data-av-animation="bounceInLeft">
               <ul class="nav nav-tabs mu-restaurant-menu">
                 <li class="active"><a href="#breakfast" data-toggle="tab">Breakfast</a></li>
                 <li><a href="#meals" data-toggle="tab">Meals</a></li>
@@ -441,7 +439,7 @@
 
   <section id="mu-client-testimonial">
     <div class="mu-overlay">
-      <div class="container">
+      <div class="container animation" data-av-animation="bounceInRight">
         <div class="row">
           <div class="col-md-12">
             <div class="mu-client-testimonial-area">
@@ -500,12 +498,12 @@
         <div class="col-md-12">
           <div class="mu-gallery-area">
 
-            <div class="mu-title">
+            <div class="mu-title animation fast" data-av-animation="bounceInDown" >
               <span class="mu-subtitle">Discover</span>
               <h2>Our Gallery</h2>
             </div>
 
-            <div class="mu-gallery-content">
+            <div class="mu-gallery-content animation fast" data-av-animation="bounceInUp">
             
               <!-- Start gallery image -->
               <div class="mu-gallery-body">
@@ -895,6 +893,7 @@
  
   <!-- Custom js -->
   <script src="assets/js/custom.js"></script> 
-
+  <script type="text/javascript" src="plugins/jquery-aniview/dist/jquery.aniview.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
