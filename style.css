@@ -497,7 +497,7 @@ img {
 }
 
 .mu-title .mu-subtitle {
-  font-size: 50px;
+  font-size: 45px;
   font-family: "Tangerine", cursive;
   line-height: 30px;
 }
@@ -1869,6 +1869,10 @@ RESERVATION SECTION
   display: inline-block;
   margin-top: -3px !important;
 }
+
+.mu-title .mu-subtitle {
+
+ }
 
 @media (min-width: 1200px) {
   .mu-about-us-left .about-us-img {
