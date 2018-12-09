@@ -560,8 +560,9 @@ img {
 }
 
 .mu-counter-nav li .mu-single-counter span {
-  font-family: "Tangerine", cursive;
-  font-size: 22px;
+  font-family: 'Lobster', cursive;
+  font-size: 19px;
+  letter-spacing: 1px;
 }
 
 .mu-counter-nav li .mu-single-counter h3 {
@@ -1907,6 +1908,17 @@ RESERVATION SECTION
     height: 250px;
   }
 }
+
+@media (max-width: 767px) {
+  .mu-counter-nav li .mu-single-counter span {
+    font-size: 18px;
+  }
+
+  .mu-counter-nav li .mu-single-counter p {
+    font-size: 12px;
+  }
+}
+
 
 
 .fast {
