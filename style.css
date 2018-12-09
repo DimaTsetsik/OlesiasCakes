@@ -1887,6 +1887,8 @@ RESERVATION SECTION
 }
 
 .about-me {
-  font-family: "Tangerine", cursive;
+  /*font-family: "Tangerine", cursive; */
+  letter-spacing: 1px;
+  font-family: 'Lobster', cursive;
   font-size: 18px;
 }
