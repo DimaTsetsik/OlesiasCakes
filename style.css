@@ -498,8 +498,9 @@ img {
 
 .mu-title .mu-subtitle {
   font-size: 45px;
-  font-family: "Tangerine", cursive;
+  /*font-family: "Tangerine", cursive; */
   line-height: 30px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .mu-title h2 {
@@ -1872,7 +1873,7 @@ RESERVATION SECTION
 }
 
 .mu-title .mu-subtitle {
-
+  font-family: "Open Sans", sans-serif !important;
  }
 
 @media (min-width: 1200px) {
