@@ -221,7 +221,7 @@ img {
   padding: 0;
   margin-top: 16px;
   height: 34px;
-  width: 180px;
+  width: 200px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -1866,10 +1866,9 @@ RESERVATION SECTION
 }
 
 .logo-block .main-site-logo {
-  border-radius: 100%;
-  width: 48px;
+  width: 200px;
   display: inline-block;
-  margin-top: -3px !important;
+  margin-top: -15px !important;
 }
 
 .mu-title .mu-subtitle {
@@ -1946,4 +1945,16 @@ RESERVATION SECTION
 .fast {
   -vendor-animation-duration: 1s;
   -vendor-animation-delay: 0s;
+}
+
+.mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title.eng-title {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.mu-counter-nav li .mu-single-counter p {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p {
+  font-family: "Open Sans", sans-serif !important;
 }

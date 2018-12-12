@@ -109,8 +109,8 @@ jQuery(function($){
       infinite: true,
       arrows: false,
       autoplay: true,
-      speed: 500,      
-      cssEase: 'linear'
+      speed: 700,      
+      cssEase: 'linear',
     });       
 
   /* ----------------------------------------------------------- */
