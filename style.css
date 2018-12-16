@@ -1958,3 +1958,50 @@ RESERVATION SECTION
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p {
   font-family: "Open Sans", sans-serif !important;
 }
+
+.cupcake-img {
+  width: auto;
+  height: 320px;
+  margin-top: 25px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cupcake-title {
+  margin-top: -25px;
+}
+
+.products-list {
+  margin-top: 25px;
+  width: 49%;
+  display: inline-block;
+}
+
+.products-list p {
+ color: #fea539;
+}
+
+.cupcake-menu {
+  width: 601px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+@media (max-width: 768px) { 
+  .cupcake-menu {
+    width: auto;
+  }
+
+  .products-list {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) { 
+  .cupcake-img {
+    height: 280px;
+  }
+}
