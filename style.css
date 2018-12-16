@@ -2005,3 +2005,9 @@ RESERVATION SECTION
     height: 280px;
   }
 }
+
+@media (max-width: 420px) { 
+  .cupcake-img {
+    height: 245px;
+  }
+}
