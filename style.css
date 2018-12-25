@@ -78,6 +78,11 @@ img {
   max-width: 100%;
 }
 
+@font-face {
+  font-family: CaviarDreams;
+  src: url(assets/fonts/CaviarDreams.ttf);
+}
+
 .mu-readmore-btn {
    /*background-color: #fff; */
   font-family: "Open Sans", sans-serif;
@@ -564,7 +569,7 @@ img {
   font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: 'CaviarDreams', sans-serif;
 }
 
 .mu-counter-nav li .mu-single-counter h3 {
@@ -1952,7 +1957,7 @@ RESERVATION SECTION
 }
 
 .mu-counter-nav li .mu-single-counter p {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p {
@@ -1979,7 +1984,8 @@ RESERVATION SECTION
 }
 
 .products-list p {
- color: #fea539;
+  color: #fea539;
+  font-family: 'CaviarDreams';
 }
 
 .cupcake-menu {
@@ -1988,6 +1994,11 @@ RESERVATION SECTION
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+}
+
+.cupcake-menu .price {
+  color: #fea539;
+  font-family: 'CaviarDreams';
 }
 
 @media (max-width: 768px) { 
