@@ -1899,6 +1899,12 @@ RESERVATION SECTION
   transform: translateX(-50%);
 }
 
+@media (max-width: 991px) {
+  .google-form-posotion > iframe {
+    width: 100% !important;
+  }
+}
+
 .about-me {
   /*font-family: "Tangerine", cursive; */
   letter-spacing: 1px;
