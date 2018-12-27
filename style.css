@@ -1871,9 +1871,13 @@ RESERVATION SECTION
 }
 
 .logo-block .main-site-logo {
-  width: 200px;
-  display: inline-block;
+ /* width: 200px;
   margin-top: -15px !important;
+ */
+ margin-top: -28px !important;
+ width: 140px;
+  display: inline-block;
+ 
 }
 
 .mu-title .mu-subtitle {
@@ -1932,6 +1936,31 @@ RESERVATION SECTION
 
   .mu-counter-nav li .mu-single-counter p {
     font-size: 12px;
+  }
+
+  .mu-tab-content-area .media-left,
+  .mu-tab-content-area.media-right,
+  .mu-tab-content-area .media-body {
+    display: block;
+  }
+
+  .mu-menu-item-nav li .media .media-left {
+    width: 100%;
+    height: 145px;
+  }
+  .mu-menu-item-nav li .media .media-left a,
+  .mu-menu-item-nav li .media .media-left a img {
+    width: 100%;
+    height: 145px;
+  }
+
+  .mu-menu-item-nav li .media .media-body .media-heading {
+    margin-top: 15px;
+  }
+
+  .mu-tab-content-left {
+    padding-right: 0;
+    padding-left: 15px;
   }
 }
 
