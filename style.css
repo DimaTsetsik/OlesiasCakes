@@ -724,7 +724,7 @@ img {
   font-weight: bold;
   letter-spacing: 1.5px;
   line-height: 20px;
-  font-family: 'CaviarDreams';
+  font-family: 'Lato', sans-serif;
 }
 
 .mu-menu-item-nav li .media .media-body p {
@@ -1875,8 +1875,8 @@ RESERVATION SECTION
  /* width: 200px;
   margin-top: -15px !important;
  */
- margin-top: -28px !important;
- width: 140px;
+ margin-top: -23px !important;
+ width: 165px;
   display: inline-block;
  
 }
