@@ -28,7 +28,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: "Prata", serif;
+  font-family: 'Lato', sans-serif;
   color: #333333;
   font-size: 15px;
   overflow-x: hidden;
@@ -63,7 +63,7 @@ h3,
 h4, 
 h5, 
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'CaviarDreams', sans-serif;	
 }
 
 h2 {
@@ -365,6 +365,7 @@ img {
   margin-bottom: 30px;
   margin-top: 10px;
   padding: 0 30px;
+  font-family: 'Lato', sans-serif;
 }
 
 .mu-top-slider .slick-prev::before {
@@ -505,13 +506,14 @@ img {
   font-size: 45px;
   /*font-family: "Tangerine", cursive; */
   line-height: 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'CaviarDreams', sans-serif;		
 }
 
 .mu-title h2 {
   color: #000;
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 5px;
+  padding-top: 10px;
 }
 
 
@@ -639,7 +641,7 @@ img {
 }
 
 .mu-restaurant-menu li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'CaviarDreams', sans-serif;	
   font-size: 18px;
   border-radius: 0;
   color: #fff;
@@ -1989,15 +1991,15 @@ RESERVATION SECTION
 }
 
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title.eng-title {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: 'CaviarDreams', sans-serif;
 }
 
 .mu-counter-nav li .mu-single-counter p {
-  font-family: "Lato", sans-serif !important;
+  font-family: 'Lato', sans-serif;
 }
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: 'Lato', sans-serif;
 }
 
 .cupcake-img {
